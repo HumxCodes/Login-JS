@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+
+      /* Estilo para o corpo da página */
+      body {
+          background: linear-gradient(to bottom, #4CAF50, #ffffff); /* Cor gradiente de fundo */
+          color: black;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          font-family: Arial, sans-serif;
+          position: relative; /* Para permitir posicionamento absoluto da imagem */
+      }
+
+      /* Estilo para o contêiner do formulário */
+      .container {
+          display: flex;
+          align-items: center;
+      }
+
+      /* Estilo para o quadrado em volta do formulário */
+      .formulario {
+          border: 2px solid black;
+          padding: 20px;
+          width: 400px;
+          margin: 20px auto;
+          box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          background-color: black; /* Altere a cor de fundo para cinza */
+          color: white; /* Altere a cor do texto para branco */
+          position: relative; /* Defina a posição como relativa */
+          z-index: 1; /* Defina um índice Z para o quadrado */
+      }
+
+      /* Estilo para o formulário (fundo branco e texto preto) */
+      form {
+          color: black;
+      }
+
+      /* Estilo para o botão de login */
+      .login-button {
+          background-color: #007bff;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+      }
+
+      /* Estilo para a imagem no canto inferior esquerdo */
+      .corner-image {
+          position: fixed;
+          bottom: 20px;
+          left: 20px;
+          width: 260px; /* Defina a largura da imagem conforme necessário */
+          height: 260px; /* Defina a altura da imagem conforme necessário */
+          z-index: 0; /* Defina um índice Z menor para a imagem */
+      }
+
+      /* Estilo para o rodapé */
+      #footer {
+          text-align: center;
+          background-color: #f0f0f0;
+          padding: 10px;
+          font-size: 14px;
+      }
